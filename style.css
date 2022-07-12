@@ -9,3 +9,18 @@ body{
     display: inline-block;
     left: 40%;
 }
+#color-palette {
+width: 20px;
+height: 20px;
+border: solid black 1px;
+display: inline;
+ }
+
+ #pixel-board{
+    background-color: bisque;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    width: 170px;
+    height: 170px;
+    position: relative;
+ }
