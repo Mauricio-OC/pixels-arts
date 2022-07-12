@@ -20,8 +20,8 @@ display: inline;
     background-color: bisque;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 40px;
-    height: 40px;
+    width: 150px;
+    height: 150px;
     display: grid;
     position: relative;
  }
