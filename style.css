@@ -17,11 +17,12 @@ display: inline;
  }
 
  #pixel-board{
+    border: solid black 1px;
     background-color: bisque;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 150px;
-    height: 150px;
+    width: 40px;
+    height: 40px;
     display: grid;
     position: relative;
  }
