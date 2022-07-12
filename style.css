@@ -3,40 +3,41 @@ body{
 }
 
 .color{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: solid black 1px;
     display: inline-block;
-    left: 40%;
+    left: 35%;
 }
 #color-palette {
-width: 20px;
-height: 20px;
+width: 15px;
+height: 15px;
 border: solid black 1px;
 display: inline;
  }
 
  #pixel-board{
     background-color: bisque;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr 2fr;
-    width: 170px;
-    height: 170px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 40px;
+    height: 40px;
+    display: grid;
     position: relative;
  }
  .pixel{
     border: solid black 1px;
     position: relative;
-    left: 170px;
+    left: 150px;
     background-color: white;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
  }
  main{
     display: grid;
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
  }
 
  .btnClear{
@@ -48,5 +49,5 @@ display: inline;
     border: none;
     border-radius: 2px;
     padding: 10px  40px;
-    cursor: pointer;
- }
+    cursor: pointer; 
+}
